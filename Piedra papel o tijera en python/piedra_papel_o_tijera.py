@@ -10,10 +10,7 @@ piedra = "piedra"
 papel = "papel"
 tijera = "tijera"
 
-
-
-    
-
+#juego
 if pregunta.find("si") >= 0 :
     print("Vale! juguemos a piedra papel o tijera a ver si le ganas a esta maquina jajas")
     contador = input([piedra + " " + papel + " " + tijera + " 1.. 2.. 3.. YA!" ])
