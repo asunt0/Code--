@@ -1,0 +1,33 @@
+
+
+.container{
+    padding: 20px 5px;
+    background: lightslategray;
+}
+.caja{
+    background: black;
+    height: 80px;
+    width: 80px;
+    margin:20px;
+    animation-name: desplazamiento;
+    animation-duration: 3s;
+     position:relative;
+     animation-timing-function: cubic-bezier(0.87, 0.01, 0.02, 0.96);
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-fill-mode: both;
+}
+
+@keyframes desplazamiento {
+    0% {
+         left:0;
+         background: black;
+    }
+    50% {
+       background: blue;
+    }
+    100%{
+        left:80%;
+        background: red;
+    }
+}

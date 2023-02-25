@@ -1,0 +1,19 @@
+.container {
+    padding: 20px 5px;
+    background: lightcoral
+}
+.caja {
+    width: 80px; 
+    height: 80px;
+    background:lightblue;
+    display:flex;
+    transition: transform 2s;
+    margin: 30px;
+}
+.caja:hover{
+    transform: scale(2) translate(40px) skew(20deg);
+}
+b{
+    margin:auto;
+    transform: skew(-20deg);
+}

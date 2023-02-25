@@ -1,0 +1,41 @@
+body{
+    padding:15px;
+    background-color: gray;
+}
+.grid-container{
+    display:grid;
+    margin:2px;
+    grid-template-areas:
+     "header header header"
+     "aside main main"
+     "aside main main"
+     "aside main main"
+     "aside main main"
+     "footer footer footer";
+    grid-template-rows: repeat(autofill, 1fr);
+    height:92vh;
+    border:3px solid black;
+}
+.grid-item{
+    padding:20px;
+  
+}
+ul li{
+    display:inline-block
+}
+.grid-header{
+    background: lightcoral;
+    grid-area: header;
+}
+.grid-main{
+    background: lightcyan;
+    grid-area: main;
+}
+.grid-aside{
+    background: lightskyblue;
+    grid-area: aside;
+}
+.grid-footer{
+    background: lightgreen;
+    grid-area: footer;
+}

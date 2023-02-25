@@ -1,0 +1,51 @@
+
+.container{
+    background: lightsteelblue;
+    padding: 20px 5px;
+}
+.caja{
+    background: lightcoral;
+    width: 100px;
+    height: 100px;
+    transition-property: left, background;
+    transition-duration: 3s, 1s;
+    margin: 50px;
+    position:relative;
+    left:0;
+}
+.container:hover > .caja{
+    left:80%;
+    background: lightgreen;
+}
+
+.caja:first-child{
+     transition-timing-function: linear;
+}
+
+.caja:nth-child(2){
+    transition-timing-function: ease;
+}
+
+.caja:nth-child(3){
+    transition-timing-function: ease-in;
+     
+}
+
+.caja:nth-child(4){
+    transition-timing-function: ease-out;
+
+}
+
+.caja:nth-child(5){
+    transition-timing-function: ease-in-out;
+  
+}
+
+
+
+
+
+
+
+
+

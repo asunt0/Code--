@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./Python/variables 2.0",
+        "./Python/variables.2.py"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}

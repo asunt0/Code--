@@ -1,0 +1,18 @@
+*{
+     scroll-behavior: auto;
+}
+.img{
+    height:200px;
+    width:200px;
+}
+.img {
+    filter: blur(10px);
+}
+
+.img:hover {
+    filter: none;
+    filter: brightness(2) drop-shadow(20px 20px 20px #000) contrast(3);
+}
+#x {
+    user-select: none;
+}
